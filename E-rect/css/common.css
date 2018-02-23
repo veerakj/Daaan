@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* ------------------------------------------------------------ common */
+body { color: #000; font-size: 16px; min-width: 1100px; font-family: "Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;}
+a:link 		{ color: #000; text-decoration: none; }
+a:visited 	{ color: #000; text-decoration: none; }
+a:hover,
+a:hover img,
+input[type="submit"]:hover { color: #111; text-decoration: none; 
+	filter:alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8; }
+    
+input[type="text"],
+select,
+textarea	{ border: 1px solid #b5b5b5; }
+
+input[type="submit"] { -webkit-appearance: button; cursor: pointer; padding: 0; border: none; }
+
+.inner 	{ width: 1000px; margin: 0 auto; }
+.btn 	{ text-align: center; }
+.btn a 	{ display: inline-block; *display: inline; *zoom: 1; color: #fff; font-size: 18px;
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; }
+	
+.SP { display: none;}
+/*Common Style*/
+.cmn_border{
+	position: relative;
+}
+.cmn_border::before,.cmn_border::after{
+	position: absolute;content: "";width: 1px;height: 100%;background: #e4e4e4;top: 0;	
+}
+.cmn_border::before{
+	left: 0;
+}
+.cmn_border::after{
+	right: 0;
+}
+/* ------------------------------------------------------------ header */
+#topHeader{
+	background: #fff;padding: 50px 0;	
+}
+#topHeader .logo_area{
+	float: left;
+}
+#topHeader .logo_area h1{
+	float:right;font-size: 12px;line-height: 24px;color: #000;font-weight: 600;	
+}
+#topHeader .logo_area a{
+	margin-right: 30px;display: inline-block;	
+}
+#topHeader .inquiry{
+	float:right;padding: 8px 20px;		
+}
+#topHeader .inquiry span,#topHeader .tel_area p{
+	font-weight: 600;font-size: 12px;color: #000;	
+}
+#topHeader .tel_area{
+	margin-right: 20px;float: left;
+}
+#topHeader .tel_no a{
+	font-weight: 600;font-size: 22px;line-height: 22px;	
+}
+#topHeader .inq_btn{
+	float:right;
+}
+#topHeader .inq_btn a{
+	border-radius:0;background: #efae13;color: #fff;font-size: 12px;padding: 0 18px;height: 34px;line-height: 34px;	display: inline-block;margin-top: 5px;
+}
+/* ------------------------------------------------------------ Navigation */
+#navArea{
+	padding: 24px 0 30px;background: #ffff;position: relative;
+}
+#navArea::after{
+	content:"";position: absolute;top: 2px;left: 0;width: 100%;height: 4px;background: #ccc;	
+}
+#nav ul li{
+	float: left;width: 16.666%;text-align: center;
+}	
+#nav ul li a{
+	position: relative;display: block;font-weight: 600;color:#010101;font-size: 14.5px;border-radius: 0;
+}
+#nav ul li a span{
+	color: #085d85;font-size: 12px;	
+}
+#nav ul li a:hover{
+	opacity: 1;
+}
+#navbar .current a::after{
+	transition:.5s;content: "";position: absolute;z-index: 3;top: -22px;left:0;width: 100%;height: 4px;background: #0f68ba;
+}
+/* ------------------------------------------------------------ footer */
+
+
+/* ------------------------------------------------------------ mobile */
+@media only screen and (max-width:640px){
+
+body { color: #000; font-size: 14px; min-width: inherit; font-family: "Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;}
+a:link 		{ color: #000; text-decoration: none; }
+a:visited 	{ color: #000; text-decoration: none; }
+a:hover,
+a:hover img,
+input[type="submit"]:hover { color: #111; text-decoration: none; 
+	filter:alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8; }
+    
+input[type="text"],
+select,
+textaera	{ border: 1px solid #b5b5b5; }
+
+input[type="submit"] { -webkit-appearance: button; cursor: pointer; padding: 0; border: none; }
+
+.inner 	{ width: 94%; margin: 0 auto; }
+.btn 	{ text-align: center; }
+.btn a 	{ display: inline-block; *display: inline; *zoom: 1; color: #fff; font-size: 14px;
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; }
+
+.PC { display: none;}	
+.SP { display: block;}
+
+/* ------------------------------------------------------------ header */
+
+
+/* ------------------------------------------------------------ footer */
+/* ------------------------------------------------------------ menu */
+
+}
+
+@media only screen and (orientation : portrait) { 
+	#navigation 			{ position: absolute; top:0; margin: 0 0 0; right: 0; left: 0; }
+}
+
+
+
+

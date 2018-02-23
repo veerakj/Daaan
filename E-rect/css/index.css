@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* ------------------------------------------------------------  common*/
+
+.cmn_btn a{
+	line-height: 44px;font-size: 16px;color: #fff;font-weight: 500;background: #000;width: 295px;height: 44px;display: inline-block;	
+}
+
+/** === First Image in Homepage ===*/
+#heroImg img{
+	width: 100%;max-width: 100%;height: auto;	
+}
+/** === 2nd Image in the Homepage ===*/
+#music_entertainment{
+	background: #f4f4f4;padding:92px 0 115px;
+}
+#music_entertainment .studio_list li{
+	float: left;margin-left: 5px;	
+}
+#music_entertainment .studio_list li:first-child{
+	margin-left: 0;
+}
+#music_entertainment .music_enter_desc{
+	text-align: center;margin-top: 42px;	
+}
+#music_entertainment .music_enter_desc h2{
+	color: #000;font-size: 24px;font-weight: 700;line-height: 42px;	
+}
+#music_entertainment .cmpn_info{
+	margin-top: 51px;
+}
+
+/** === 3rd Image in the Homepage ===*/
+#service_shop{
+	padding: 51px 0 110px;
+}
+#service_shop .service_shop_inner ul li{
+	text-align: center;float: left;	
+}
+#service_shop .ss_desc h2{
+    margin: 20px 0 2px;font-size: 28px;line-height: 26px; color: #0f68ba;
+}
+#service_shop .ss_desc span{
+	font-weight: 600;color: #000;font-size: 16px;
+}
+#service_shop .ss_desc p{
+    font-weight: 600;font-size: 16px;  color: #000;line-height: 32px; margin: 15px 0 22px;
+}
+#service_shop .service_shop_inner ul li:last-child{
+	margin-left: 40px;
+}
+
+/*
+* ===4th first part title in the homepage ===
+*/
+
+#contact_area{
+	background: #f4f4f4;padding:23px 0;
+}
+#contact_area .contact_inner{
+	background: #fff;padding: 57px 0;
+}
+#contact_area .contact_title h2,#contact_area .contact_title p{
+	font-weight: bold;color: #2b2b2b;font-size: 22px;text-align: center;margin-bottom:14px;	
+}
+#contact_area .contact_title p{
+	font-size: 14px;
+}
+.contact_details{
+	margin-top: 15px;
+}
+.phone_left{
+	float: left;text-align: center;padding: 0 110px; border-right: 1px solid #2b2b2b;text-align: center; float: left; 
+}
+.phone_left p:first-child{
+	padding-left: 70px;font-weight: bolder;
+}
+.phone_left p:last-child{
+	padding-left: 30px;
+}
+.phone_left img{
+    float: left;margin-top: 8px;    
+}
+.email_right{
+	float: right;text-align: center;padding-right: 80px;
+}
+.email_right a{
+    margin-top: 18px;display: inline-block;background: #efae13;border-radius: 5px;height: 51px;line-height: 51px; color: #fff;padding: 0 58px;
+}
+#contact_area .cmn_cntct p{
+	font-size: 18px;font-weight: bold;color: #2b2b2b;	
+}
+.phn_nmbr a{
+	font-size: 38px;font-weight: bold;color: #2b2b2b;	
+}
+/*
+* ===4th image title in the homepage ===
+*/
+
+#studio{
+	padding-top: 70px;
+}
+.studio_list ul li {
+	padding: 6px 0;float: left;width: 16.5%;text-align: center; border-left: 1px solid #ddd;
+}
+.studio_list ul li:last-child{
+	border-right:1px solid #ddd;
+}
+.studio_img_list ul li{
+	float: left;margin-right: 12px;	
+}
+.studio_img_list ul li:last-child{
+	margin-right: 0;
+}
+.studio_img_list{
+	margin-top: 40px;margin-bottom: 70px;
+}
+#footer_area{
+	text-align:center;
+}
+#footer_top p,#footer_top a{
+	font-size: 15px;color: #010101;font-weight: bold;
+}
+#footer_top{
+	padding-bottom: 26px;
+}
+#footer_top p{
+    margin: 30px 0 12px;
+}
+#footer_bottom{
+	border-top: 1px solid #dfdfdf;
+}
+#footer_bottom a{
+	font-size: 12px;color: #bcbcbc;display: inline-block;line-height: 40px;
+}
+/*
+* === 5th image in the homepage ===
+*/
+/*
+* === Access title in the homepage ===
+*/
+
+/*
+* === 6th image in the homepage ===
+*/
+
+/*
+* === 7th image in the homepage ===
+*/
+
+
+/*
+* === 10th image in the homepage ===
+*/
+/* ------------------------------------------------------------ mobile */
+@media only screen and (max-width:640px){
+}
+
+
